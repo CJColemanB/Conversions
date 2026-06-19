@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Smart Media Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Converter</h1>
+        <form action="/" method="post" enctype="multipart/form-data">
+    
+            <input type="file" name="file" id="fileInput" accept="image/*,video/*,audio/*" style="display:none;">
+            
+            <label for="fileInput" id="fileLabel" class="custom-file-upload">
+                Choose a File
+            </label>
+            
+            <select name="format" id="formatSelect" class="dropdown" style="display:none;"></select>
+
+            <button type="submit" id="submitBtn" class="action-btn" style="display:none;">Upload & Process</button>
+            
+        </form>
+
+        <div id="progress-container" style="display:none; margin-top: 20px;">
+            <div id="progress-bar-bg" style="background: #333; height: 20px; border-radius: 10px;">
+                <div id="progress-bar" style="width: 0%; height: 20px; background: #d32f2f; border-radius: 10px; transition: width 0.3s;"></div>
+            </div>
+            <p id="status-text">Processing...</p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
