@@ -19,8 +19,8 @@ A lightweight, modern web application built with Flask that allows users to seam
 
 ## 🛠️ Tech Stack
 
-| Component | Technology | Purpose |
-| :--- | :--- | :--- |
+| Component | Technology |
+| :--- | :--- |
 | **Backend** | Python, Flask |
 | **Media Processing** | MoviePy (v2.0+), Pillow | 
 | **Frontend** | HTML5, CSS3, Vanilla JS | 
