@@ -4,7 +4,7 @@ A lightweight, modern web application built with Flask that allows users to seam
 
 ---
 
-## 🌟 Features
+## Features
 
 * **Smart Format Detection:** The UI dynamically analyzes the uploaded file's extension and only presents compatible conversion formats (e.g., preventing a user from trying to convert an MP3 to a JPG).
 * **Real-Time Progress Tracking:** Integrates a custom backend logger with frontend polling to display a live progress bar reflecting the server's terminal output during lengthy video/audio conversions.
@@ -17,7 +17,7 @@ A lightweight, modern web application built with Flask that allows users to seam
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 | :--- | :--- |
@@ -27,7 +27,7 @@ A lightweight, modern web application built with Flask that allows users to seam
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 **1. Clone or Download the Repository**
 Navigate to your preferred directory and ensure you have the project files structured correctly.
